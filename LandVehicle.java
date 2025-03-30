@@ -38,7 +38,7 @@ public class LandVehicle extends Vehicle implements Refuelable {
     }
 
     // ini adalah metode refuel yang diambil dari interface refuelable
-    // fungsinya
+    // fungsinya untuk mengisi bahan bakar
     @Override
     public void refuel(double amount) {
         setFuelLevel(getFuelLevel() + amount); // Otomatis dibatasi oleh setter
